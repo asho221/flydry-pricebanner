@@ -17,7 +17,7 @@ export default function PricingTicker() {
   const SCROLL_ITEMS = [...HIGHLIGHTS, ...HIGHLIGHTS, ...HIGHLIGHTS];
 
   return (
-    <div className="w-full bg-white py-8 font-sans overflow-hidden relative flex flex-col items-center">
+    <div className="w-full bg-white pt-2 pb-4 font-sans overflow-hidden relative flex flex-col items-center">
       
       {/* Custom Keyframes for smooth infinite scrolling */}
       <style>
@@ -38,7 +38,7 @@ export default function PricingTicker() {
       </style>
 
       {/* The Scrolling Banner Area */}
-      <div className="w-full relative overflow-hidden mb-6">
+      <div className="w-full relative overflow-hidden mb-3">
         
         {/* Left Fade Overlay to blend seamlessly into the white page */}
         <div className="absolute left-0 top-0 bottom-0 w-16 md:w-40 bg-gradient-to-r from-white to-transparent z-10 pointer-events-none"></div>
