@@ -61,20 +61,20 @@ export default function PricingTicker() {
         </div>
 
         {/* Right Fade Overlay */}
-        <div className="absolute right-0 top-0 bottom-0 w-16 md:w-40 bg-gradient-to-l from-white to-transparent z-10 pointer-events-none"></div>
-      </div>
-
-      {/* Seamless CTA Link */}
-      <a
-        href="https://flydry.co.uk/prices"
-        target="_top"
-        className="group inline-flex items-center justify-center gap-2 text-[#C5A059] font-bold text-[15px] hover:text-[#114232] transition-colors"
-      >
-        <span className="border-b-2 border-transparent group-hover:border-[#114232] transition-all pb-0.5">
-          See full price list & calculate your estimate
-        </span>
-        <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
-      </a>
+      <div className="absolute right-0 top-0 bottom-0 w-16 md:w-40 bg-gradient-to-l from-white to-transparent z-10 pointer-events-none"></div>
     </div>
-  );
+
+    {/* Seamless CTA Link */}
+    <a
+      href="https://flydry.co.uk/pricing"
+      target="_top"
+      className="group inline-flex items-center justify-center gap-2 text-[#C5A059] font-bold text-[15px] hover:text-[#114232] transition-colors"
+    >
+      <span className="border-b-2 border-transparent group-hover:border-[#114232] transition-all pb-0.5">
+        See full price list & calculate your estimate
+      </span>
+      <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
+    </a>
+  </div>
+);
 }
